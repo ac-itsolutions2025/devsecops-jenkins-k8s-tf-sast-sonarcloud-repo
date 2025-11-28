@@ -18,7 +18,7 @@ pipeline {
             steps {
                 echo 'Checking out source code...'
                 git branch: 'main',
-                    url: 'https://github.com/your-repo/your-java-app.git'
+                    url: 'https://github.com/ac-itsolutions2025/devsecops-jenkins-k8s-tf-sast-sonarcloud-repo.git'
             }
         }
         
